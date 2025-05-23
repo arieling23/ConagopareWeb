@@ -8,7 +8,7 @@ export default function Hero() {
 
 
       <Image
-         src="/images/inicio1.jpeg"
+         src="/images/inicio/inicio1.jpeg"
          alt="Paisaje"
          width={1920}
          height={1080}
