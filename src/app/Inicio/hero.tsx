@@ -8,12 +8,12 @@ export default function Hero() {
 
 
       <Image
-         src="/images/inicio/inicio1.jpeg"
-         alt="Paisaje"
-         width={1920}
-         height={1080}
-        className="w-full h-full object-cover object-[center_30%] brightness-75"
-              />
+  src="/images/inicio/inicio1.jpeg"
+  alt="Paisaje Rural"
+  fill
+  priority
+  className="object-cover object-[center_30%] brightness-75"
+/>
 
       <div className="relative z-10">
         <motion.img
