@@ -1,5 +1,5 @@
 "use client";
-
+import Image from 'next/image';
 import { motion } from "framer-motion";
 
 export default function Hero() {
@@ -7,11 +7,13 @@ export default function Hero() {
     <section className="relative h-[100vh] -mt-16 flex flex-col justify-center items-center text-center text-white overflow-hidden">
 
 
-      <img
-        src="/images/inicio/inicio1.jpeg"
-        alt="Paisaje Rural"
-        className="absolute inset-0 w-full h-full object-cover object-[center_30%] brightness-75"
-      />
+      <Image
+         src="/images/inicio1.jpeg"
+         alt="Paisaje"
+         width={1920}
+         height={1080}
+        className="w-full h-full object-cover object-[center_30%] brightness-75"
+              />
 
       <div className="relative z-10">
         <motion.img
